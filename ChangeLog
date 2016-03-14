@@ -1,4 +1,14 @@
 CHANGES
 =======
 
+1.0.1
+-----
+
+* Create README.md
+* Initial commit
+
+1.0.0
+-----
+
+* First version support deis cluster
 * Initial project
