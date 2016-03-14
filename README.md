@@ -19,6 +19,26 @@ kind of backing services (currently AWS elements supported: RDS, ElasticCache, S
 pip install git+https://github.com/Grindizer/mist.git
 ```
 
+Or for a tagged version (1.0.3 for example.)
+
+```
+pip install git+https://github.com/Grindizer/mist.git@1.0.3
+```
+
+of from a cloned repo
+
+```
+git clone https://github.com/Grindizer/mist
+cd mist
+python setup.py install
+```
+
+Once installed you can run ::
+
+```
+mist --help
+```
+
 ## Usage
 
 ```
@@ -45,4 +65,12 @@ Options:
   -u, --username TEXT  deis user for login  [required]
   -p, --password TEXT  deis password  [required]
   --help               Show this message and exit.
+```
+
+## Development
+
+To run the all tests run
+
+```
+py.test
 ```
