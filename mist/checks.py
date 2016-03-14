@@ -5,7 +5,7 @@ from utils import urlparsing
 from os import path
 
 current_dir = path.dirname(path.realpath(__file__))
-image_path = path.join(current_dir, "..", "images")
+image_path = path.join(current_dir, "images")
 
 gsm = getGlobalSiteManager()
 
