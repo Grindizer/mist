@@ -1,6 +1,5 @@
 __author__ = 'nacim'
 
-from interfaces import ICheck
 from zope.component import getGlobalSiteManager
 from utils import urlparsing
 from os import path

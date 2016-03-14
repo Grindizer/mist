@@ -2,3 +2,6 @@ click
 pytest
 hapydeis
 graphviz
+zope.interface
+zope.component
+urllib3
